@@ -1,9 +1,9 @@
 {
   "name": "finaltest",
   "version": "0.1.0",
-  "summary": "A short description of finaltest.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/finaltest",
+  "summary": "test just",
+  "description": "just a test test",
+  "homepage": "https://github.com/asasdasasd/repotest.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "shenkun": "shenkun@wondersgroup.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/finaltest.git",
+    "git": "https://github.com/asasdasasd/repotest.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "finaltest/Classes/**/*"
+  "source_files": "Pod/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
