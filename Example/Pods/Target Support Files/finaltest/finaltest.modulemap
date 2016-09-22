@@ -1,0 +1,6 @@
+framework module finaltest {
+  umbrella header "finaltest-umbrella.h"
+
+  export *
+  module * { export * }
+}
