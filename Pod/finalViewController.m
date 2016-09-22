@@ -1,22 +1,22 @@
 //
-//  TestViewController.m
+//  finalViewController.m
 //  Pods
 //
 //  Created by shen kun on 16/9/22.
 //
 //
 
-#import "TestViewController.h"
+#import "finalViewController.h"
 
-@interface TestViewController ()
+@interface finalViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation finalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"hahhaha zhen mei feng");
+    NSLog(@"hahaha");
 }
 
 - (void)didReceiveMemoryWarning {

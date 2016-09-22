@@ -112,6 +112,8 @@
 		A82F61EC1D083D4808B1310B87590DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0E4EAB26DF11F1DE60103A194FD94 /* Foundation.framework */; };
 		AC9CE0ECC78F93770B8007D360389BAB /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */; };
 		AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFC601D31D93848C00490B66 /* finalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC601D11D93848C00490B66 /* finalViewController.h */; };
+		AFC601D41D93848C00490B66 /* finalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC601D21D93848C00490B66 /* finalViewController.m */; };
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A21DB7494006EA8646A9897878AD64 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6CF2F08A9BA6BAC535FEB83F839FDEE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D1A0E9BD4DDFBC87E078DEC833A16 /* UIImage+Diff.m */; };
@@ -340,6 +342,8 @@
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		AFC24D50D8B015609AB3593048A53CAF /* Pods-finaltest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finaltest_Example-resources.sh"; sourceTree = "<group>"; };
+		AFC601D11D93848C00490B66 /* finalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = finalViewController.h; path = ../../../Pod/finalViewController.h; sourceTree = "<group>"; };
+		AFC601D21D93848C00490B66 /* finalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = finalViewController.m; path = ../../../Pod/finalViewController.m; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		B37D20985C866F347837D1F745215054 /* Pods-finaltest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finaltest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -717,6 +721,7 @@
 		94A86F81D39DC4B7F7B610C8B57C5217 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				AFC601D01D93844B00490B66 /* Pod */,
 				55D4F0BCF6DF73508D1AA25A04FDDAC6 /* finaltest */,
 			);
 			name = "Development Pods";
@@ -728,6 +733,15 @@
 				D15181A2A90AA8A9F24D97664729A1B2 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		AFC601D01D93844B00490B66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFC601D11D93848C00490B66 /* finalViewController.h */,
+				AFC601D21D93848C00490B66 /* finalViewController.m */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
@@ -920,6 +934,7 @@
 			files = (
 				3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */,
 				5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */,
+				AFC601D31D93848C00490B66 /* finalViewController.h in Headers */,
 				2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */,
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
 				E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */,
@@ -1226,6 +1241,7 @@
 				1AB3304B6884F626BC54150AC7565E18 /* EXPMatchers+equal.m in Sources */,
 				403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */,
 				FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */,
+				AFC601D41D93848C00490B66 /* finalViewController.m in Sources */,
 				931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */,
 				2CFE2898496C1C7096DB8DA43AF19103 /* EXPMatchers+raise.m in Sources */,
 				FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */,

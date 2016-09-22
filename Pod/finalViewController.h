@@ -1,5 +1,5 @@
 //
-//  TestViewController.h
+//  finalViewController.h
 //  Pods
 //
 //  Created by shen kun on 16/9/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestViewController : UIViewController
+@interface finalViewController : UIViewController
 
 @end
